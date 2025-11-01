@@ -111,4 +111,4 @@ class TestSimulacion(unittest.TestCase):
         assert_allclose(P_inicial, P_final, atol=1e-7)
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main(verbosity=2)
